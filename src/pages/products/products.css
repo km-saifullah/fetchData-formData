@@ -1,0 +1,46 @@
+.show_data {
+  padding: 30px 0;
+}
+.products_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+.product_heading {
+  font-size: 35px;
+  color: #222;
+  text-align: center;
+}
+.products {
+  padding: 20px;
+  width: 500px;
+}
+.product_img {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+}
+.product_img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.product_info {
+  padding: 15px 0;
+}
+.product_info h3,
+p {
+  color: #222;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+}
+.product_info h3 {
+  font-size: 20px;
+}
+.price {
+  color: indianred;
+  font-weight: 700;
+}

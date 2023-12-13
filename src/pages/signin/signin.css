@@ -1,0 +1,39 @@
+.signin {
+  padding: 30px;
+}
+.signup_heading {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+  color: #222;
+}
+.signup_form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.input_field {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid goldenrod;
+  outline: none;
+}
+.btn {
+  padding: 10px;
+  width: 300px;
+  outline: none;
+  background-color: #222;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.btn:hover {
+  border: 1px solid #222;
+  background-color: #fff;
+  color: #222;
+}

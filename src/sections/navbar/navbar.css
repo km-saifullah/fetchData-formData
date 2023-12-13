@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #222;
+  padding: 20px 0;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_link {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+.nav_link:hover{
+    color: antiquewhite;
+}
